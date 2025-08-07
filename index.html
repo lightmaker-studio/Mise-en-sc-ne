@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mise en Scène Produit – Studio Faiseurs de Lumière</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXERYQ4242"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-PXERYQ4242');
+  </script>
+
+  <style>
+    :root {
+      --primary:#000000;
+      --secondary:#F7F7F7;
+      --accent:#ffffff;
+      --text:#333333;
+      --radius:8px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--secondary);line-height:1.5;}
+    header{background:var(--accent);padding:3rem 1rem;text-align:center;}
+    header h1{font-size:2.25rem;font-weight:700;margin-bottom:1rem;}
+    header p{max-width:680px;margin:0 auto;font-size:1.1rem;}
+    .steps{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;padding:3rem 1rem;}
+    .step{background:var(--accent);border-radius:var(--radius);padding:2rem;flex:1 1 280px;max-width:360px;box-shadow:0 2px 6px rgba(0,0,0,.08);}  
+    .step h2{font-size:1.25rem;font-weight:600;margin-bottom:.75rem;}
+    .step p{margin-bottom:1rem;font-size:0.95rem;}
+    .btn{display:inline-block;background:var(--primary);color:#fff;padding:.75rem 1.5rem;border-radius:var(--radius);text-decoration:none;font-weight:600;transition:background .25s;}
+    .btn:hover{background:#333333;}
+    .bonus{background:var(--accent);padding:3rem 1rem;text-align:center;}
+    .bonus h2{font-size:1.5rem;font-weight:700;margin-bottom:1rem;}
+    .bonus p{max-width:640px;margin:0 auto 1.5rem;font-size:1rem;}
+    footer{padding:2rem 1rem;text-align:center;font-size:0.9rem;color:#666;}
+    @media (min-width:768px){
+      header h1{font-size:2.75rem;}
+      .bonus h2{font-size:1.75rem;}
+    }
+  </style>
+</head>
+<body>
+  <!-- HERO -->
+  <header>
+    <h1>Mise en Scène Premium</h1>
+    <p>Des visuels story‑telling pour sublimer vos produits, nourrir votre image de marque et booster vos conversions – livrés en 7 jours ouvrés.</p>
+  </header>
+
+  <!-- STEPS -->
+  <section class="steps">
+    <!-- Step 1 -->
+    <div class="step">
+      <h2>1 – Réservez votre créneau</h2>
+      <p>Tarif unique : <strong>490 € HT</strong> pour 1 produit (jusqu’à 3 variations d’angles et props). Besoin de plusieurs produits ? Réservez un créneau par référence.</p>
+      <a href="https://calendly.com/lightmaker-creation/seance-mise-en-scene" class="btn" target="_blank" rel="noopener noreferrer" onclick="gtag('event','click_reserver_misescene',{event_category:'CTA',event_label:'landing',value:1});">
+        Réserver ma séance
+      </a>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step">
+      <h2>2 – Brief &amp; envoi de vos articles</h2>
+      <p>
+        Remplissez un mini‑brief créatif : ambiance, couleur, accessoires souhaités.<br>
+        <strong>Option A</strong> : apportez vos produits le jour J.<br>
+        <strong>Option B</strong> : expédiez‑les au moins 72 h avant.<br>
+        <em>Frais d’envoi/retour à votre charge.</em>
+      </p>
+      <p>Adresse :<br><strong>Lightmaker Studio</strong><br>3 rue Savary, 29300 Quimperlé, France.</p>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step">
+      <h2>3 – Recevez vos visuels prêts à publier</h2>
+      <p>
+        Sous 7 jours ouvrés, un lien de téléchargement HD (WebP/JPEG) + exports réseaux.<br>
+        Option : suivi performance (CTR / AOV) activable.<br>
+        Nous réexpédions vos produits ou les conservons pour d’autres shoots.
+      </p>
+    </div>
+  </section>
+
+  <!-- BONUS / UPSELL -->
+  <section class="bonus">
+    <h2>Besoin d’une série supplémentaire&nbsp;?</h2>
+    <p>Réservez un second créneau dans la foulée et bénéficiez de <strong>‑10 % sur la séance suivante</strong> (code : DUPLI‑10).</p>
+    <a href="https://calendly.com/lightmaker-creation/seance-mise-en-scene" class="btn" target="_blank" rel="noopener noreferrer">
+      Programmer un second shoot
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 – Lightmaker Studio | Studio de photographie · contact@lightmaker-studio.com · +33 6 24 04 20 34
+  </footer>
+</body>
+</html>
